@@ -37,6 +37,7 @@ header {
     display: flex;
     width: 25px;
     align-items: center;
+    gap: 5px;
 }
 
 .cerly {
