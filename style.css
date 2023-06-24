@@ -32,6 +32,9 @@ header {
         padding: 50%;
     }
 }
+i:hover{
+    scale: 110%;
+}
 
 .logo {
     display: flex;
@@ -146,6 +149,10 @@ label {
     text-transform: uppercase;
     width: 14vw;
 }
+.shareBtn:hover{
+    background-color: #c36133;
+    scale: 103%;
+    }
 
 .sub-div {
     display: flex;
