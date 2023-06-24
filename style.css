@@ -22,11 +22,13 @@ header {
 
     & i {
         font-size: 24px;
+        border-radius: 10%;
     }
 
     & .fa-utensils {
         font-size: 25px;
         background-color: #333232;
+        border-radius: 10%;
         padding: 50%;
     }
 }
@@ -126,7 +128,12 @@ td label {
         box-shadow: 1px 0px 10px rgba(128, 128, 128, 0.525);
     }
 }
-
+input[type=checkbox]:checked + label {
+    text-decoration: line-through;
+}
+label {
+    cursor: default;
+}
 .shareBtn {
     color: rgb(255, 255, 255);
     background-color: #d16330;
